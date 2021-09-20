@@ -1,18 +1,24 @@
+body{
+    margin-left: 6cm;
+    margin-top: 3cm;
+    background-color: #f1f1f1;
+}
 main{
-    background: linear-gradient(#e66465, #353eac);
-    padding: 50px;
+    background: linear-gradient(#363030, #c1c3d6);
+    padding: 100px;
     width: 400px;
     margin-left:400px ;
     border-radius:  20px;
-    box-shadow:0 0 5px 5px rgb(178, 240, 9);
+    box-shadow:0 0 10px 5px rgb(13, 14, 13);
+    
     
 }
 
 img{
     border: 5px solid rgb(224, 211, 17);
     border-radius: 70%;
-    width: 150px;
-    margin-left: 30%;
+    width: 200px;
+    margin-left: 25%;
 }
 
 
@@ -35,11 +41,8 @@ h1:hover {
     text-align: center;
     border: 5px solid rgb(17, 17, 17);
     font-size: 16px;
-    color: yellowgreen;
+    color: rgb(249, 252, 244);
 }
 .two:hover{
-    color: rgb(255, 0, 21);
-}
-body{
-    background-color: rgb(28, 12, 71);
+    color: rgb(12, 10, 10);
 }

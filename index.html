@@ -6,6 +6,19 @@
 </head>
 <body>                     
     <main>
+        <a href="https://github.com/fdnd-task/fdnd-visitekaartje-example">
+            <button>Github</button>
+        </a>
+        <input type="input" id="searchQuery">
+        <button type="button" onclick="search();">search</button>
+        <script>
+            function search() {
+                var query = document.querySelector("#searchQuery").value;
+                window.location.href = 'https://www.google.com/search?q='+query;
+            }
+        </script>
+        
+        
         <div class="one">
             <h1>Yasser Slaymen</h1> 
         </div>
@@ -14,8 +27,7 @@
          <div class="two">
             <h2>hobby's</h2>
             <p>ik hou van muziek,pingpong en schaken</p>
-            <h3>lievlingeten</h3>
-            <p> ik hou van lasagne</p>
+           
             <h4> kwaliteiten</h4>
             <p>ijverig-creatief-punctuul </p>
          </div>
